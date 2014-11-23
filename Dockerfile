@@ -4,7 +4,7 @@ MAINTAINER Shay Erlichmen "shay@samba.me"
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y pwgen
 
 ENV GRAYLOG_HOME /opt/graylog2-web-interface
-ENV GRAYLOG_VER 0.92.0-beta.1
+ENV GRAYLOG_VER graylog2-web-interface-0.92.0-rc.1
 
 
 WORKDIR /opt/
